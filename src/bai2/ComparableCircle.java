@@ -19,7 +19,7 @@ public class ComparableCircle extends Circle implements Comparable<ComparableCir
        }else if (this.getRadius()<x.getRadius()){
            return -1;
        }else {
-           return 1;
+           return 0;
        }
     }
 }
